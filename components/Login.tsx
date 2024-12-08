@@ -22,7 +22,6 @@ export const Login=()=>{
                     <input type="text" placeholder="username" className="h-10 rounded-lg p-2 border"/>
                     <input type="password" placeholder="password" className="h-10 rounded-lg p-2 border"/>
                     <ReCAPTCHA sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE || ""} className="mx-auto" onChange={setCaptcha}/>
-
                     <button className="bg-blue-600 rounded-lg h-10 text-white">Login</button>
              </form>
 
